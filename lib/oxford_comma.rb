@@ -9,6 +9,7 @@ def oxford_comma(array)
     output = array.join(", ")
     
     output << " and #{last_ele}"
+    return output
     
   end
 end
