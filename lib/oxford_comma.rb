@@ -11,7 +11,7 @@ def oxford_comma(array)
     output = array.join(", ")
     
     output << ", and #{last_ele}"
-    binding.pry
+    
     return output
     
   end
