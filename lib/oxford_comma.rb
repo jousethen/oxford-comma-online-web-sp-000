@@ -10,7 +10,7 @@ def oxford_comma(array)
     array.pop()
     output = array.join(", ")
     
-    output << " and #{last_ele}"
+    output << ", and #{last_ele}"
     binding.pry
     return output
     
